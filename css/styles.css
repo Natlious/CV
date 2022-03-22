@@ -1,3 +1,9 @@
+/**********************************************TAG SELECTOR*********************************************************/
+
+body {
+    background-color: #B7CADB;
+}
+
 img {
     border-radius: 50%;
     height: 15em;
@@ -18,3 +24,31 @@ hr {
     margin-block-end: 0ex;
     padding: 5px;
 }
+
+h1 {
+    color: #FDF6EC;
+}
+
+h3 {
+    color: #FDF6EC;
+}
+
+
+/**********************************************************CLASS SELECTORS***************************************************************/
+
+
+/* 
+.Class {                    %Classes can be used in multiple areas%
+    property: value;    
+}
+*/
+
+
+/**********************************************************ID SELECTORS***************************************************************/
+
+
+/*
+#ID {                       %ID can be used in one area%
+    Property: Value;
+}
+*/
