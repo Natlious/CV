@@ -2,13 +2,14 @@
 
 body {
     background-color: #B7CADB;
+    font-family: cursive;
 }
 
 img {
     border-radius: 50%;
+    border-color: #FDF6EC;
     height: 15em;
     width: 15em;
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -23,6 +24,7 @@ hr {
     margin-block-start: 0px;
     margin-block-end: 0ex;
     padding: 5px;
+    margin: 10px auto;
 }
 
 h1 {
@@ -42,6 +44,28 @@ h3 {
     property: value;    
 }
 */
+
+.title {
+    text-align: center;
+}
+
+.profileImg {
+    border-style: solid;
+}
+
+.boku {
+    /*STR*/
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    border-bottom: 10px;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.me {
+    text-align: center;
+    position: absolute;
+}
 
 
 /**********************************************************ID SELECTORS***************************************************************/
