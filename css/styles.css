@@ -35,6 +35,10 @@ h3 {
     color: #FDF6EC;
 }
 
+li {
+    margin: 1em;
+}
+
 
 /**********************************************************CLASS SELECTORS***************************************************************/
 
@@ -83,6 +87,16 @@ h3 {
 
 .namae {
     font-size: 2.5rem;
+}
+
+.skill-row {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
+
+.skills {
+    text-align: center;
 }
 
 
