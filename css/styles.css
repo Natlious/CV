@@ -56,15 +56,33 @@ h3 {
 .boku {
     /*STR*/
     font-family: 'Sacramento', cursive;
-    font-size: 80px;
-    border-bottom: 10px;
+    font-size: 5rem;
+    /*1em = 16px 80/16 =  5em  */
+    border-bottom: .625rem;
     display: inline-block;
     margin-bottom: 100px;
+    margin: 0ex;
+}
+
+.hi {
+    color: #FDF6EC;
 }
 
 .me {
     text-align: center;
     position: absolute;
+}
+
+.middle-container {
+    text-align: center;
+}
+
+.bottom-container {
+    text-align: center;
+}
+
+.namae {
+    font-size: 2.5rem;
 }
 
 
